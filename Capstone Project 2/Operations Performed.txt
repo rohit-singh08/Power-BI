@@ -1,0 +1,18 @@
+University Applications Charter
+
+1. Full_School_Name removed
+2. GSS_Code removed
+3. Carnegie_Code removed 
+4. Institution_Name split into Name and State Code
+5. Data appended with university_application sheet
+
+state_target
+
+1. Table transformed
+2. State Name added matching State_Code in state_universities[State_Code]
+3. WI & WY added by making another table and then aggregating it with the table
+
+state_universities
+
+1. Table transformed 
+2. Total_Fund column added
